@@ -32,14 +32,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: build components
         run: |
-            cd screenD/components
-            npm ci
-            npm run build
+          cd screenD/components
+          npm ci
+          npm run build
 
       # Runs a set of commands using the runners shell
       - name: copy components
         run: |
-             cd screenD/components
-             ls -a
-              
-      #     cp -r ../../screenD/components/dist/* ../../dist
+          cp -r ../../screenD/components/dist/* ../../dist
