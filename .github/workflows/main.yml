@@ -39,4 +39,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: copy components
         run: |
-          cp -r ../../screenD/components/dist/* ../../dist
+            pwd
+            ls -a
+         # cp -r ../../screenD/components/dist/* ../../dist
