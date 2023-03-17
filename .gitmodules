@@ -1,0 +1,3 @@
+[submodule "screenD"]
+	path = screenD
+	url = git@github.com:MyNameIsTang/screenD.git
